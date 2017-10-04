@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  background-color: #002124;
+}
+
+/*-------------------*/
+/*Navigation---------*/
+/*-------------------*/
+
+nav {
+  background-color: #002124;
+  padding: 12px 30px 12px 30px;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+
+nav a {
+  color: #80f2ff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.home {
+  float: left;
+}
+
+.instructions {
+  position: absolute;
+  left: 0;
+  color: #80f2ff;
+  font-size: 14px;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
+}
+
+.family {
+  float: right;
+}
+
+/*-------------------*/
+/*Headings---------*/
+/*-------------------*/
+
+h1, h2 {
+  font-weight: 300;
+  padding: 8px;
+}
+
+h1 {
+  padding-top: 80px;
+  font-size: calc(2rem + 2vw);
+  color: #80f2ff;
+  text-align: center;
+}
+
+h2 {
+  color: #fff086;
+  margin-top: 25px;
+  font-weight: 300;
+  font-size: calc(0.75rem + 1vw);
+}
+
+h3 {
+  font-weight: 400;
+  font-size: calc(0.25rem + 1vw);
+}
+
+h3 i {
+  font-weight: 400;
+}
+
+
+
+/*-------------------*/
+/*Species Account----*/
+/*-------------------*/
+
+
+.species-account {
+  background-color: #00383e;
+  overflow:hidden;
+  margin: 6px 0 6px 30px;
+}
+
+
+.species-desc {
+  width: 28vw;
+  margin: 1vw 0 1vw 1vw;
+  clear: both;
+  float: left;
+  background-color: #002124;
+  color: #80f2ff;
+  padding: 5px;
+  line-height: 145%;
+}
+.species-desc p {
+  margin-bottom: 20px;
+  font-size: calc(0.2rem + 1vw);
+  line-height: 145%;
+}
+
+.status {
+  padding: 20px;
+}
+
+.status a:link,
+.status a:visited {
+  text-decoration: none;
+  color: #a4a0fa;
+  font-size: calc(0.2rem + 1vw);
+}
+
+.status a:hover,
+.status a:active {
+  color: #fff086;
+  border-bottom: 1px solid #fff086;
+}
+
+.figure-container {
+  float: right;
+  overflow: hidden;
+}
+
+figure {
+  position: relative;
+  float: right;
+  width: 30vw;
+  margin-top: 0.5vw;
+  margin-right: 0.5vw;
+  margin-bottom: -18px;
+}
+
+figure a {
+  font-size: calc(0.75rem + 1vw);
+  text-decoration: none;
+  color: #fff086;
+  font-weight: 400;
+  position: absolute;
+}
+
+.leftX {
+  top: -.75vw;
+  left: 0;
+}
+
+.rightX {
+  top: -.75vw;
+  right: 0;
+}
+
+img {
+  width: 30vw; 
+  position:relative;
+  display: block;
+  z-index: 1;
+}
+
+.left-image:focus {
+  width: 59vw;
+  z-index: 9999;
+  transform: translateX(1.5vw);
+}
+
+.right-image:focus {
+  width: 59vw;
+  z-index: 9999;
+  transform: translateX(-30.5vw);
+}
+
+
+figcaption {
+  display: inline-block;
+  color: #fff086;
+  position: relative;
+  top: -24px;
+  left: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  transform: translateX(-50%);
+  padding: 1px 8px;
+  font-size: calc(0.2rem + 0.75vw);
+  z-index: 3;
+}
+
+

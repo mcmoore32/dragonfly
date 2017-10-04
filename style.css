@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #002124;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #d1fbff;
+    line-height: 150%;
+    text-rendering: optimizeLegibility;
+    
+}
+
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.mainbody {
+    padding: 200px 40px 0 40px;
+    background-color: #00383e; 
+}
+
+
+h1 {
+    color: #00e7ff;
+    background-color: #002d33;
+    font-size: 4.3em;
+    font-weight: 100;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    position: fixed;
+    width: 1140px;
+    
+}
+
+h2 {
+    font-size: 1em;
+    padding-bottom: 15px;
+    
+}
+
+
+.nonspecieslistH3 {
+   padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 1.7em;
+    color: #93ffcc;
+    font-weight: 300;
+}
+
+.specieslistH3 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 1.7em;
+    color: #93ffcc; 
+    clear: both;
+    font-weight: 300;
+}
+
+.nonspecieslistH4 {
+    padding-bottom: 3px;
+    padding-top: 20px; 
+    font-weight: 300;
+    color: #fff5ac;
+    font-size: 1.25em;
+}
+
+.specieslistH4 {
+    padding-bottom: 3px;
+    padding-top: 20px;
+    font-weight: 300;
+    color: #fff5ac;
+    font-size: 1.25em;
+    clear: both;
+}
+
+em {
+    font-family: lato;
+    font-weight: 100;
+}
+
+a:link {
+    color: #5effff;
+}
+a:visited {
+    color: #a3c6ff;
+}
+a:hover {
+    color: yellow;
+}
+
+
+.photo {
+    width: 400px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 20px;
+}
+
+.photo2 {
+    width: 400px;
+    margin-top: 15px;
+    float: right;
+    margin-left: 20px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+
+.elementlist {
+    padding-left: 40px;
+}
+
+.reference {
+    padding-bottom: 20px;
+}
+
+.speciestext {
+    line-height: 110%;
+    padding-left: 20px;
+}
+
+
+.navlist {
+    list-style-type: none;
+    border:0;
+    padding:10px;
+    position: absolute;
+    top: 124px;
+    left: 0;
+    width:1140px;
+    background-color:#00383e;
+}
+
+.navlistelement {
+    display: inline;
+    font-size: 1.3em;
+    padding: 10px;
+    margin:3px;
+    background-color: #001a1d;
+}
